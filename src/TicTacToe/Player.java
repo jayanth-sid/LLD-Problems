@@ -16,7 +16,7 @@ public class Player {
     public int[] getMove() {
 
         int x, y;
-        System.out.print(Name + " please enter a move:");
+        System.out.print(Name + " Please enter your move:");
         x = this.sc.nextInt();
         y = this.sc.nextInt();
         int pos[] = { x, y };

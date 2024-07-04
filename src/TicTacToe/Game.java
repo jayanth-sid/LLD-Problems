@@ -9,7 +9,7 @@ public class Game {
     public Board board;
     public boolean hasWinner;
 
-    public Game() {
+    public void initializeGame() {
         players = new LinkedList<>();
         Player p1 = new Player("Alice", 'X');
         Player p2 = new Player("Bob", 'O');
@@ -17,7 +17,6 @@ public class Game {
         players.add(p2);
 
         board = new Board(3);
-
     }
 
     public void startGame() {

@@ -1,7 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import TicTacToe.Game;
+
 public class Main {
     public static void main(String[] args) {
-        //Tic Tac Toe Game
+        // Tic Tac Toe Game
+        Game g1 = new Game();
+        g1.startGame();
     }
 }

@@ -71,7 +71,7 @@ public class Board {
                 if (board[i][j] == null) {
                     System.out.print("_  ");
                 } else {
-                    System.out.print(board[i][j].type + "  ");
+                    System.out.print(board[i][j].symbol + "  ");
                 }
             }
             System.out.println();
